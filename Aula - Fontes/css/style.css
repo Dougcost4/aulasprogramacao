@@ -1,0 +1,17 @@
+p {
+    font-family: 'Times New Roman', Times, serif
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+
+/*
+font-family: escolhe familia da fonte
+font-style: coloca em italico
+font-weigh: deixar a linha da letra mais grossa, vai de 100 a 900, onde 400 é normal, 700 é a bold e 900 mais grossa.
+font-size: tamanho de fonte.
+font-variant: small-caps; coloca todas as letras maiusculas porém diferencia de tamanho as que realmente estão maiuculas
+
+*/

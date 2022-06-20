@@ -1,4 +1,28 @@
-.borda{
-    border: 10px solid black;
+p {
+    color: blue;
+    text-indent: 20px;
+    text-align: justify;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    line-height: 90%;
+    word-spacing: 5px;
+    text-shadow: 1px 1px rgb(148, 127, 127);
+
+
 }
 
+/*
+text-align: justify; justifica todo o texto.
+text-transform: capitalize; deixa tudo maiusculo
+text-indent: 20px; -- adiona o espaço na primeira palavra do paragrafo
+text-decoration: ; colocar sublinhado, riscado
+line-height: distancia entre as linhas em comparação com a fonte
+letter-spacing: distancia entre as letras em pixels
+word-spacing: distancia entre as palavras
+text-shadow: 1px 2px black; sombra nas letras, a a distancia de deslocamento para direita, para baixo e uma cor
+
+*/
+
+a{
+    text-decoration: none;
+}
