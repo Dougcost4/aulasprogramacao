@@ -11,14 +11,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--insere um link para baixar um css e aplicar no html. Google gera automaticamente com o google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!--tem que fazer uma conexão do html para um css(fonte baixadas .ttf) e então definir o nome dela para o html
+    e então inserir a fonte no local desejado-->
     <style>
         p{
             font-family: "Dancing script";
         }
+        h1{
+            font-family: "MinhaFonte", arial;
+        }
+        @font-face {
+            font-family: MinhaFonte;
+            src: url(./fontes/JumpingFlash.ttf);
+        }
+
+        
     </style>
 </head>
 
 <body>
+    <h1>Lorem Ipsum</h1>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
         a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
