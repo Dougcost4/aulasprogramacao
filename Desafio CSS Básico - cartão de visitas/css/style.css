@@ -1,0 +1,38 @@
+body{
+    min-width: 400px;
+    min-height: 200px;
+    background-position: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-top: 8px;
+    background-repeat: no-repeat;
+    background-image: url("../assets/backgorund.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto Slab';
+    font-size: 10px;
+    font-weight: 900;
+    
+}
+
+.formata{
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+li{
+    margin-right: 450px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-right: 450px;
+    padding: 0px;
+}

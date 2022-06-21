@@ -1,0 +1,43 @@
+p{
+    color: blue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    cursor: crosshair;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: blue;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+p:hover{
+    background-color: red;
+    color: white;
+}
+
+a:active{
+    background-color: black;
+    color: white;
+}
+
+a.visited{
+    color: red;
+    background-color: red;
+}
+
+/* 
+cursos: crosshair; mudança do cursor
+a.hover: hover signifca quando está com o mouse em cima
+a.active: quando clicar no link aplica as alterações
+a.visited: quando o link já foi aberto
+*/
