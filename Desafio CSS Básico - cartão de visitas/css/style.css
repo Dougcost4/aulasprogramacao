@@ -1,31 +1,42 @@
 body{
-    min-width: 400px;
-    min-height: 200px;
     background-position: right;
-    margin-left: 20px;
-    margin-top: 15px;
-    padding-top: 8px;
     background-repeat: no-repeat;
-    background-image: url("../assets/backgorund.png");
     background-size: cover;
     background-position: center;
     font-family: 'Roboto Slab';
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 900;
+    box-sizing: 400px 200px;
+    background-color: black;
     
 }
 
 .formata{
+    background-image: url("../assets/backgorund.png");
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin: 10%;
 }
 
 ul{
     list-style-type: none;
-    margin-left: 0px;
+    margin-left: 0px
     padding: 0px;
+    
+    
+}
+h1{
+    
 }
 
 li{
-    margin-right: 450px;
+    margin-right: 250px;
     padding: 0px;
 }
 
