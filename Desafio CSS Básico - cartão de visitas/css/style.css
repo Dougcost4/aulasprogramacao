@@ -4,10 +4,12 @@ body{
     background-size: cover;
     background-position: center;
     font-family: 'Roboto Slab';
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 900;
     box-sizing: 400px 200px;
     background-color: black;
+    margin: 0px;
+    padding: 0px;
     
 }
 
@@ -22,22 +24,24 @@ body{
     height: 200px;
     margin: auto;
     margin: 10%;
+    padding: 0px;
 }
 
 ul{
     list-style-type: none;
-    margin-left: 0px
-    padding: 0px;
+    margin-left: 0px;
+    font-size: 12px;
     
     
 }
 h1{
-    
+    margin-left: 40px;    
 }
 
 li{
-    margin-right: 250px;
+    margin-right: 150px;
     padding: 0px;
+    margin-left: 0px;
 }
 
 a{
@@ -46,4 +50,5 @@ a{
     font-weight: 900;
     margin-right: 450px;
     padding: 0px;
+    margin-left: 0px;
 }

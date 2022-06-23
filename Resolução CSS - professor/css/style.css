@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    margin: auto;
+    box-sizing: 400px 200px;
+    padding: 10%;
+
+}
+
+.formata {
+    box-sizing: border-box;
+    background-image: url("../assets/backgorund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+li {
+    margin-right: 200px;
+    margin-left: 0px;
+    border-radius: 20px;
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.instagram {
+    list-style-image: url("../assets/Insta.png");
+}
+
+.twitter {
+    list-style-image: url("../assets/Twitter.png");
+}
+
+.youtube {
+    list-style-image: url("../assets/Youtube.png");
+}
